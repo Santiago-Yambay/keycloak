@@ -27,7 +27,7 @@ ENV KC_DB_SCHEMA=dkeycloak
 # Configurar el hostname para que coincida con el ALB de AWS
 ENV KC_HOSTNAME_STRICT=false
 ENV KC_HOSTNAME_STRICT_BACKCHANNEL=false
-ENV KC_HOSTNAME=keycloakdeleyf-201698114.us-east-1.elb.amazonaws.com
+ENV KC_HOSTNAME=44.206.220.190
 ENV KC_PROXY=edge
 # Variables de entorno para el administrador de Keycloak
 ENV KEYCLOAK_ADMIN=admin
