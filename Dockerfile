@@ -34,4 +34,5 @@ ENV KEYCLOAK_ADMIN=admin
 ENV KEYCLOAK_ADMIN_PASSWORD=d3*P455
 
 # Definir el comando de arranque de Keycloak
-ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start-dev"]
+ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start-dev", "--http-enabled=true"]
+
